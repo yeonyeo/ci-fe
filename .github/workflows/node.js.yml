@@ -39,7 +39,7 @@ jobs:
 
    
     - name: Docker push
-    - run : docker push -t ${{secret.DOCKER.USERNAME}}${{secret.DOCKER.repo}}
+    - run : docker push -t ${{secret.DOCKER.USERNAME}}${{secret.DOCKER.REPO}}
 
    
    
